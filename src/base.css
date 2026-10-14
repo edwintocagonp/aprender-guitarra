@@ -1,0 +1,13 @@
+/* Page around the app */
+html, body {
+  margin: 0; padding: 0;
+  background: #F4EEE3;
+  font-family: 'Manrope', system-ui, sans-serif;
+  min-height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+*::-webkit-scrollbar { width: 0; height: 0; }
+* { scrollbar-width: none; }
+button { font-family: inherit; -webkit-tap-highlight-color: transparent; }
+input, textarea { font-size: 16px; }
